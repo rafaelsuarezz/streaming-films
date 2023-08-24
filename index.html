@@ -19,8 +19,8 @@
             <h1 class="header-title header-title--categoryView inactive"></h1>
 
             <form id="searchForm" class="header-searchForm">
-            <input type="text" placeholder="Vengadores" />
-            <button id="searchBtn">🔍</button>
+                <input type="text" placeholder="Vengadores" />
+                <button id="searchBtn">🔍</button>
             </form>
         </header>
 
@@ -32,13 +32,15 @@
 
             <article class="trendingPreview-movieList">
 
-            <!-- <div class="movie-container">
-                <img
-                class="movie-img"
-                src="https://image.tmdb.org/t/p/w300/adOzdWS35KAo21r9R4BuFCkLer6.jpg"
-                alt="Nombre de la película"
-                />
-            </div> -->
+                <div class="movie-container movie-container--loading"></div>
+                <div class="movie-container movie-container--loading"></div>
+                <div class="movie-container movie-container--loading">
+                    <!-- <img
+                    class="movie-img"
+                    src="https://image.tmdb.org/t/p/w300/adOzdWS35KAo21r9R4BuFCkLer6.jpg"
+                    alt="Nombre de la película"
+                    /> -->
+                </div>
             
             </article>
         </section>
@@ -48,87 +50,80 @@
 
             <article class="categoriesPreview-list">
 
-                <!-- <div class="category-container">
-                    <h3 id="id14" class="category-title">Acción</h3>
-                </div> -->
-                
+                <div class="category-container category-container--loading"></div>
+                <div class="category-container category-container--loading"></div>
+                <div class="category-container category-container--loading">
+                    <!-- <h3 id="id14" class="category-title">Acción</h3> -->
+                </div>
             </article>
         </section>
 
+        <section id="liked" class="liked-container">
+            <div class="liked-header">
+                <h2 class="liked-title">Películas Favoritas</h2>
+            </div>
+
+            <article class="liked-movieList">
+                <div class="movie-container">
+                    <img
+                    class="movie-img"
+                    src=""
+                    alt="Nombre de la película"
+                    />
+                </div>
+              
+            </article>
+
+
+        </section>
+
         <section id="genericList" class="genericList-container inactive">
-            <div class="movie-container">
-            <img
-                src=""
-                class="movie-img"
-                alt="Nombre de la película"
-            />
-            </div>
-
-            <div class="movie-container">
-            <img
-                src=""
-                class="movie-img"
-                alt="Nombre de la película"
-            />
-            </div>
-
-            <div class="movie-container">
-            <img
-                src=""
-                class="movie-img"
-                alt="Nombre de la película"
-            />
-            </div>
+            <div class="movie-container movie-container--loading"></div>
+            <div class="movie-container movie-container--loading"></div>
+            <div class="movie-container movie-container--loading">
+                <!-- <img
+                    src=""
+                    class="movie-img"
+                    alt="Nombre de la película"
+                />
+                </div> -->
         </section>
 
         <section id="movieDetail" class="movieDetail-container inactive">
             <h1 class="movieDetail-title"></h1>
             <span class="movieDetail-score"></span>
-            <p class="movieDetail-description">
-            </p>
+            <p class="movieDetail-description"></p>
 
             <article class="categories-list">
-            <div class="category-container">
-                <h3 id="id28" class="category-title"></h3>
-            </div>
+                <div class="category-container">
+                    <h3 id="id28" class="category-title"></h3>
+                </div>
 
-            <div class="category-container">
-                <h3 id="id16" class="category-title"></h3>
-            </div>
+                <div class="category-container">
+                    <h3 id="id16" class="category-title"></h3>
+                </div>
 
-            <div class="category-container">
-                <h3 id="id14" class="category-title"></h3>
-            </div>
+                <div class="category-container">
+                    <h3 id="id14" class="category-title"></h3>
+                </div>
             </article>
 
             <article class="relatedMovies-container">
-            <h2 class="relatedMovies-title">Películas similares</h2>
+                <h2 class="relatedMovies-title">Películas similares</h2>
 
-            <div class="relatedMovies-scrollContainer">
-                <div class="movie-container">
-                <img
-                    src=""
-                    class="movie-img"
-                    alt="Nombre de la película"
-                />
+                <div class="relatedMovies-scrollContainer">
+                    <div class="movie-container movie-container--loading"></div>
+                    <div class="movie-container movie-container--loading"></div>
+                    <div class="movie-container movie-container--loading">
+                        <!-- <img
+                            src=""
+                            class="movie-img"
+                            alt="Nombre de la película"
+                        /> -->
+                    </div>
+                    
+                    
                 </div>
-                
-                <div class="movie-container">
-                <img
-                    src=""
-                    class="movie-img"
-                    alt="Nombre de la película"
-                />
-                </div>
-                
-                <div class="movie-container">
-                <img
-                    src=""
-                    class="movie-img"
-                    alt="Nombre de la película"
-                />
-                </div>
-            </div>
             </article>
         </section>
 
